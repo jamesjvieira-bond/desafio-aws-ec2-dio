@@ -1,0 +1,19 @@
+# Linux Amazon
+
+chmod 400 chave.pem
+
+ssh -i chave.pem ec2-user@IP_PUBLICO
+
+---------------------------------------
+
+# Ubuntu
+
+chmod 400 chave.pem
+
+ssh -i chave.pem ubuntu@IP_PUBLICO
+
+---------------------------------------
+
+# Windows PowerShell
+
+ssh -i chave.pem ec2-user@IP_PUBLICO
